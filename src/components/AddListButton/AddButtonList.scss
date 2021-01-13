@@ -1,0 +1,59 @@
+.add-list {
+    i {
+        display: inline-block;
+    }
+
+    &__popap {
+        box-sizing: border-box;
+        width: 235px;
+        height: 148px;
+        background: #FFFFFF;
+        box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.05);
+        border-radius: 10px;
+        padding: 18px;
+
+        .badge {
+            display: flex;
+            margin-right: 5px;
+            width: 20px;
+            height: 20px;
+
+            &.active {
+                border: 2px solid #525252;
+              }
+            
+        }
+
+    }
+
+    
+}
+.field {
+    width: 100%;
+    width: 200px;
+    height: 32px;
+    background: #FFFFFF;
+    border: 1px solid #EFEFEF;
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding: 8px 12px;
+    margin-bottom: 13px;
+    &:focus {
+        border-color: #adaaaa ;
+    }
+}
+.button {
+    width: 200px;
+    height: 37px;
+    margin-top: 13px;
+    background: #4DD599;
+    border-radius: 4px;
+    border: none;
+    color: white;
+
+    &:hover {
+        background: #48f1a8;
+
+    }
+
+}
